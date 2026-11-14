@@ -1,0 +1,16 @@
+# Secretos / sesion
+.env
+.jasper-session
+.jasper-hosts
+*.cookiejar
+
+# Respaldos pre-export (subida) y reportes importados (datos del hospital)
+backups/*
+!backups/.gitkeep
+reportes/*
+!reportes/.gitkeep
+
+*.tmp
+*.bak
+__pycache__/
+*.pyc
